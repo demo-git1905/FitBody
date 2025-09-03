@@ -4,4 +4,4 @@ COPY package*.json ./
 COPY . .
 RUN npm install
 EXPOSE 3000
-CMD ["node","start"]
+CMD ["node","server/index.js"]
